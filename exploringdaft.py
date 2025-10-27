@@ -50,8 +50,4 @@ print("\nResults:")
 display(result_pd.head(10))
 display(result_daft.head(10))
 
-print(f"\n🏁 Performance Comparison: Daft = {t_daft:.2f}s | Pandas = {t_pandas:.2f}s")
-
-!pip install nbstripout
-!nbstripout --install
-!nbstripout ExploringDaft.ipynb
+print(f"\n Performance Comparison: Daft = {t_daft:.2f}s | Pandas = {t_pandas:.2f}s")
